@@ -161,4 +161,22 @@
     font-size: 14px;
     color: #555;
   }
+
+  .notification {
+    position: fixed;
+
+    top: 3%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 2px solid var(--main-green-color);
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--main-green-color);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    z-index: 1000;
+  }
   

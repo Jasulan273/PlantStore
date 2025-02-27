@@ -98,7 +98,7 @@ const ShoppingCart = () => {
           <Button text={"Proceed To Checkout"} width={"100%"} height={"40px"} />
         </div>
       </div>
-    </div>) : (<div className="container">Your car is empty</div>)
+    </div>) : (<div className="container"><div className={styles.cartContent}>Your cart is empty</div></div>)
 };
 
 export default ShoppingCart;

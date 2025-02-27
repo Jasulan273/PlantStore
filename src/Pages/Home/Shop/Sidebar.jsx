@@ -36,7 +36,7 @@ const Sidebar = ({price,setPrice, activeCategory, setActiveCategory}) => {
         <h3>Categories</h3>
         <ul className={styles.categoryList}>
            {categories.map((category)=>(
-          <li 
+          <li  key={category.name}
           onClick={() => {
             setActiveCategory(category.name);
             setActive(category.name);

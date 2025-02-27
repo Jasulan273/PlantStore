@@ -5,20 +5,21 @@ import Find from "../../images/find.png";
 import styles from "./Header.module.css";
 import { useLocalStorage } from "../../Pages/ProductPage/Product";
 
-const Header = () => {
+
+const Header = ({setSearchBar}) => {
   const [cartItems] = useLocalStorage("cartItems", []);
   const [quantity, setQuantity] = useState(0);
-
-  // Функция пересчета товаров
   const updateQuantity = () => {
     const cart = JSON.parse(localStorage.getItem("cartItems")) || [];
     setQuantity(cart.reduce((sum, item) => sum + item.quantity, 0));
   };
 
-  useEffect(() => {
-    updateQuantity(); // Вызываем сразу
 
-    // Добавляем слушатель на изменения localStorage
+
+  useEffect(() => {
+    updateQuantity(); 
+
+
     window.addEventListener("storage", updateQuantity);
     
     return () => {
@@ -27,7 +28,7 @@ const Header = () => {
   }, []);
 
   useEffect(() => {
-    updateQuantity(); // Пересчет при изменении cartItems
+    updateQuantity(); 
   }, [cartItems]);
 
   return (
@@ -41,7 +42,7 @@ const Header = () => {
           <a href="/Blogs">Blogs</a>
         </div>
         <div className={styles.icons}>
-          <a href="/Find">
+        <a href="/search" onClick={(e) => { e.preventDefault(); setSearchBar(true); }}>
             <img src={Find} width="20px" height="20px" alt="" />
           </a>
           <a href="/Cart" className={styles.cart}>
