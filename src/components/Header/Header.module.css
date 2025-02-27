@@ -1,0 +1,70 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid gray;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #a2d1ab;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.links a{
+    color: var(--main-black-color);
+    height: 50px;
+    margin-top: 20px;
+    transition: .1s all ease-in;
+
+}
+
+.links a:hover{
+    color: var(--main-green-color);
+    cursor: pointer;
+    border-bottom: 4px solid var(--main-green-color);
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icons a{
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icons a:hover{
+    cursor: pointer;
+}
+
+.icons a img{
+    transition: .2s all ease-in;
+}
+
+.icons a img:hover{
+    transform: scale(1.1);
+}
+
+
+.cart{
+    display: flex;
+    align-items: center;
+    color: var(--main-green-color);
+}

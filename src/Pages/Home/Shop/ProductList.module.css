@@ -1,0 +1,131 @@
+
+.sortBy{
+  text-align: right;
+  min-height: 80px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: end;
+  font-size: 12px;
+}
+
+.sortBy ul{
+  background-color: var(--main-green-color);
+  color: #fff;
+  border-radius: 4px;
+}
+
+.sortBy ul li{
+  text-align: center;
+  border-top: 1px solid #fff;
+}
+
+.sortBy h4{
+  color: #3D3D3D;
+  font-weight: 400;
+  transition: .2s all;
+}
+
+.sortBy h4:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.productListBlock{
+  position: relative;
+  width: 850px;
+}
+
+.productList {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    flex-grow: 1;
+  }
+
+  .navlink{
+    color: var(--main-black-color);
+    text-decoration: none;
+  }
+
+  
+  .productCard {
+    background: white;
+    padding: 20px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .productImage {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .productDetails {
+    flex-grow: 1;
+  }
+  
+  .productTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .productDescription {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .productCare {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  .productPrice {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-green-color);
+    margin-top: 10px;
+  }
+  
+
+  .pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+
+
+  .paginationNum{
+    width: 35px;
+    height: 35px;
+    border-radius: 4px;
+    border:1px solid #E5E5E5;
+    margin-left: 5px;
+    text-align: center;
+    transition: .1s all ease-in;
+  }
+
+  .paginationNum:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+  }
+
+  .pagination .active{
+    background-color: var(--main-green-color);
+    color: #fff;
+  }

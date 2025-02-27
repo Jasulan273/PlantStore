@@ -1,0 +1,243 @@
+{
+    "plants": [
+      {
+        "id": 1,
+        "name": "Ficus benjamina",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Ficus_benjamina2.jpg",
+        "description": "Ficus benjamina, also known as the weeping fig, is a popular indoor plant with elegant, arching branches covered in lush, green leaves. It is highly adaptable and can grow both in homes and offices. This plant improves air quality by filtering toxins and is relatively easy to care for, though it may shed leaves if exposed to drastic environmental changes.",
+        "price": 30.00,
+        "care": {
+          "light": "Bright indirect light",
+          "water": "Water once or twice a week",
+          "temperature": "18-25°C"
+        },
+        "categories": ["House Plants", "Big Plants"],
+        "size": "Large"
+      },
+      {
+        "id": 2,
+        "name": "Sansevieria (Snake Plant)",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Snake_Plant_%28Sansevieria_trifasciata_%27Laurentii%27%29.jpg",
+        "description": "Sansevieria, commonly known as the snake plant or mother-in-law's tongue, is a hardy, drought-resistant plant known for its upright, sword-like leaves with striking variegation. It is one of the best plants for purifying indoor air, removing toxins such as formaldehyde and benzene. This low-maintenance plant thrives in almost any lighting conditions and requires minimal watering, making it ideal for busy plant lovers.",
+        "price": 20.00,
+        "care": {
+          "light": "Can grow in shade or sun",
+          "water": "Water every two weeks",
+          "temperature": "15-30°C"
+        },
+        "categories": ["Succulents"],
+        "size": "Medium"
+      },
+      {
+        "id": 3,
+        "name": "Monstera deliciosa",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Monstera_deliciosa_leaf.JPG",
+        "description": "Monstera deliciosa, also known as the Swiss cheese plant, is a popular tropical plant admired for its large, glossy green leaves that develop distinctive natural holes as they mature. This plant adds a dramatic jungle-like aesthetic to any space and thrives in humid environments. It is a fast-growing vine that can be trained to climb or left to trail, making it versatile in home decor.",
+        "price": 50.00,
+        "care": {
+          "light": "Bright indirect light",
+          "water": "Water once or twice a week",
+          "temperature": "20-27°C"
+        },
+        "categories": ["Potter Plants"],
+        "size": "Large"
+      },
+      {
+        "id": 4,
+        "name": "Phalaenopsis Orchid",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Phalaenopsis_orchid.jpg",
+        "description": "The Phalaenopsis Orchid, commonly known as the moth orchid, is a stunning and elegant flowering plant cherished for its long-lasting blooms in various colors. This orchid is relatively easy to care for compared to other varieties and can bloom multiple times a year under optimal conditions. It adds a touch of sophistication to any interior with its graceful, arching flower spikes.",
+        "price": 40.00,
+        "care": {
+          "light": "Bright but indirect light",
+          "water": "Water once a week",
+          "temperature": "18-25°C"
+        },
+        "categories": ["Small Plants"],
+        "size": "Small"
+      },
+      {
+        "id": 5,
+        "name": "Aloe Vera",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Aloe_vera_flower.jpg",
+        "description": "Aloe vera is a well-known succulent recognized for its thick, fleshy leaves filled with soothing gel that has various medicinal and skincare benefits. This plant is highly drought-resistant and thrives in warm, sunny conditions. It is an excellent addition to homes as it not only looks attractive but also serves practical purposes in treating minor burns and skin irritations.",
+        "price": 15.00,
+        "care": {
+          "light": "Bright sunlight",
+          "water": "Water every two weeks",
+          "temperature": "15-25°C"
+        },
+        "categories": ["Succulents", "Terrariums"],
+        "size": "Small"
+      },
+      {
+        "id": 6,
+        "name": "Rubber Plant",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ficus_elastica_leaf.jpg",
+        "description": "The Rubber Plant (Ficus elastica) is a popular indoor plant with large, glossy leaves that add a touch of elegance to any space. It thrives in moderate light and requires minimal maintenance.",
+        "price": 35.00,
+        "care": {
+          "light": "Bright indirect light",
+          "water": "Water once a week",
+          "temperature": "16-24°C"
+        },
+        "categories": ["Big Plants", "Potter Plants"],
+        "size": "Large"
+      },
+      {
+        "id": 7,
+        "name": "Calathea Orbifolia",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Calathea_orbifolia.jpg",
+        "description": "Calathea Orbifolia is admired for its large, round leaves with striking silver-green patterns. It prefers humid conditions and indirect light.",
+        "price": 45.00,
+        "care": {
+          "light": "Low to medium indirect light",
+          "water": "Keep soil moist but not soggy",
+          "temperature": "18-26°C"
+        },
+        "categories": ["Small Plants", "Terrariums"],
+        "size": "Medium"
+      },
+      {
+        "id": 8,
+        "name": "Boston Fern",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Nephrolepis_exaltata.jpg",
+        "description": "Boston Fern (Nephrolepis exaltata) is a lush, air-purifying plant that thrives in humid environments and requires regular watering.",
+        "price": 20.00,
+        "care": {
+          "light": "Indirect light",
+          "water": "Water every few days",
+          "temperature": "16-24°C"
+        },
+        "categories": ["Air Purifying", "Hanging Plants"],
+        "size": "Medium"
+      },
+      {
+        "id": 9,
+        "name": "Chinese Money Plant",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Pilea_peperomioides.jpg",
+        "description": "The Chinese Money Plant (Pilea peperomioides) is known for its round, coin-like leaves and easy care requirements. It grows quickly and is great for beginners.",
+        "price": 25.00,
+        "care": {
+          "light": "Bright indirect light",
+          "water": "Water once a week",
+          "temperature": "15-25°C"
+        },
+        "categories": ["Lucky Plants", "Table Plants"],
+        "size": "Small"
+      },
+      {
+        "id": 10,
+        "name": "Bird of Paradise",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Strelitzia_reginae_flower_2.jpg",
+        "description": "Bird of Paradise (Strelitzia reginae) is a stunning tropical plant with large leaves and striking orange and blue flowers that resemble a bird in flight.",
+        "price": 60.00,
+        "care": {
+          "light": "Bright indirect light",
+          "water": "Water once a week",
+          "temperature": "18-27°C"
+        },
+        "categories": ["Tropical Plants", "Big Plants"],
+        "size": "Large"
+      },
+      {
+        "id": 11,
+        "name": "Jade Plant",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Crassula_ovata_01.JPG",
+        "description": "Jade Plant (Crassula ovata) is a popular succulent known for its thick, fleshy leaves and easy care requirements. It is considered a symbol of good luck.",
+        "price": 18.00,
+        "care": {
+          "light": "Bright direct light",
+          "water": "Water every two weeks",
+          "temperature": "16-25°C"
+        },
+        "categories": ["Succulents", "Lucky Plants"],
+        "size": "Small"
+      },
+      {
+        "id": 12,
+        "name": "Parlor Palm",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Chamaedorea_elegans.jpg",
+        "description": "Parlor Palm (Chamaedorea elegans) is a classic indoor plant with feathery, arching fronds that thrive in low light and add a tropical touch to any room.",
+        "price": 28.00,
+        "care": {
+          "light": "Low to medium indirect light",
+          "water": "Water once a week",
+          "temperature": "18-24°C"
+        },
+        "categories": ["Low Light Plants", "Air Purifying"],
+        "size": "Medium"
+      },
+      {
+        "id": 13,
+        "name": "Anthurium",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/16/Anthurium_Andreanum.jpg",
+        "description": "Anthurium is a vibrant flowering plant with heart-shaped, glossy leaves and long-lasting red, pink, or white blooms that add elegance to indoor spaces.",
+        "price": 40.00,
+        "care": {
+          "light": "Bright indirect light",
+          "water": "Water once a week",
+          "temperature": "18-27°C"
+        },
+        "categories": ["Flowering Plants", "Decorative Plants"],
+        "size": "Medium"
+      },
+      {
+        "id": 14,
+        "name": "Spider Plant",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/27/Chlorophytum_comosum0.jpg",
+        "description": "Spider Plant (Chlorophytum comosum) is an easy-to-grow houseplant with long, arching leaves and small offshoots that dangle like spiders, making it great for hanging baskets.",
+        "price": 15.00,
+        "care": {
+          "light": "Bright indirect light",
+          "water": "Water once a week",
+          "temperature": "16-24°C"
+        },
+        "categories": ["Air Purifying", "Hanging Plants"],
+        "size": "Medium"
+      },
+      {
+        "id": 15,
+        "name": "Pothos",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Epipremnum_aureum_%28closeup%29.jpg",
+        "description": "Pothos (Epipremnum aureum) is a hardy, trailing plant with heart-shaped leaves that come in various shades of green, making it a favorite for beginners.",
+        "price": 22.00,
+        "care": {
+          "light": "Low to bright indirect light",
+          "water": "Water once a week",
+          "temperature": "18-26°C"
+        },
+        "categories": ["Trailing Plants", "Low Maintenance"],
+        "size": "Medium"
+      },
+      {
+        "id": 16,
+        "name": "Lucky Bamboo",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/Lucky_Bamboo.jpg",
+        "description": "Lucky Bamboo (Dracaena sanderiana) is a unique plant often grown in water or soil. It is associated with good luck and positive energy.",
+        "price": 18.00,
+        "care": {
+          "light": "Low to medium indirect light",
+          "water": "Change water every two weeks",
+          "temperature": "18-28°C"
+        },
+        "categories": ["Lucky Plants", "Office Plants"],
+        "size": "Small"
+      },
+      {
+        "id": 17,
+        "name": "Cactus",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Golden_Barrel_Cactus.JPG",
+        "description": "Cacti are low-maintenance desert plants that store water in their thick stems, making them highly drought-tolerant and easy to care for.",
+        "price": 15.00,
+        "care": {
+          "light": "Bright direct light",
+          "water": "Water every three weeks",
+          "temperature": "18-30°C"
+        },
+        "categories": ["Succulents", "Drought Tolerant"],
+        "size": "Small"
+      }
+    ]
+  }
+  

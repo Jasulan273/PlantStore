@@ -1,0 +1,21 @@
+.banner{
+  width: inherit;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bannerText{
+  display: flex;
+  flex-direction: column;
+  width: 557px;
+  height: 280px;
+}
+
+.headerText{
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+

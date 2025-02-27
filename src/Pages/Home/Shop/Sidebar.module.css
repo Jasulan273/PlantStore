@@ -1,0 +1,91 @@
+.sidebar {
+    width: 300px;
+    padding: 20px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .categoryList,
+  .sizeList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .categoryList li,
+  .sizeList li {
+    font-size: 14px;
+    color: var(--main-black-color);
+    padding: 5px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .categoryList li:hover,
+  .sizeList li:hover {
+    color: var(--main-green-color);
+  }
+  
+  .active {
+    font-weight: bold;
+    color: var(--main-green-color);
+  }
+  
+  .range {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .price {
+    font-size: 14px;
+    color: #727272;
+    margin-bottom: 10px;
+  }
+  
+  .filterBtn {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--main-green-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .filterBtn:hover {
+    background-color: #3a8b48;
+  }
+  
+  .saleBanner {
+    background: #eaf5ea;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .saleBanner h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--main-green-color);
+  }
+  
+  .saleBanner p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .saleBanner img {
+    width: 100%;
+    margin-top: 10px;
+  }
+  

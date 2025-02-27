@@ -1,0 +1,45 @@
+.promoBanners {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+  }
+  
+  .promoBanner {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 48%;
+    background: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    margin: 0 10px;
+    align-items: center;
+  }
+
+  .promoText{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: end;
+    gap: 10px;
+  }
+
+  
+  .promoBanner img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .promoBanner h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .promoBanner p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  

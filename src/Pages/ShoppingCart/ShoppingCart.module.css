@@ -1,0 +1,90 @@
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.cartContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+
+.cartItemsContainer {
+  flex: 2;
+}
+
+.cartHeader,
+.cartItem {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 0.5fr;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cartHeader {
+  font-weight: bold;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.productInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+}
+
+.productImage {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.quantityControl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.quantityButton {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.trashButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+}
+
+
+.cartSummary {
+  flex: 1;
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: right;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.totalAmount {
+  font-weight: bold;
+  color: green;
+}
