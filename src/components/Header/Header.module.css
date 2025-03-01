@@ -58,13 +58,25 @@
     transition: .2s all ease-in;
 }
 
-.icons a img:hover{
-    transform: scale(1.1);
-}
+
 
 
 .cart{
     display: flex;
     align-items: center;
     color: var(--main-green-color);
+    position: relative;
+    transition: .2s all ease-in;
+}
+
+.cart h3{
+    position: absolute;
+    top: 0px;
+    right: 13.5px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.cart:hover{
+    transform: scale(1.1);
 }
